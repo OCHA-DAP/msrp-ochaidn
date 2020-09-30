@@ -19,11 +19,21 @@
     <!-- Optional - CSS SVG Icons (Font Awesome) -->
     <link rel="stylesheet" type='text/css' media='all' href="static/css/svg-icons.css">
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+
     <!-- SOCIAL CARDS (ADD YOUR INFO) -->
     <!-- Android -->
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="theme-color" content="#333333">
-
+    <style>
+      .divhide{
+        background: transparent !important;
+      }
+      .divhide:hover{
+        background: transparent !important;
+        box-shadow: none !important;
+      }
+    </style>
   </head>
   <body>
     <header role="banner">
@@ -37,7 +47,7 @@
     <main role="main">
       <article id="webslides" class="vertical">
         <section>
-         <span class="background" style="background-image:url(../msrp-ochaidn/static/images/image_background2.jpg)"></span>
+         <span class="background" style="background-image:url(static/images/image_background2.jpg)"></span>
           <!--.wrap = container (width: 90%) -->
           <div class="wrap aligncenter">
             <h1><strong>INDONESIA</strong></h1><br>
@@ -93,7 +103,7 @@
           </div>
         </section>
         <section>
-          <div class="wrap">
+          <div class="wrap" style="margin-top: -30px;">
             <h2>Features</h2>
             <ul class="flexblock features">
               <li>
@@ -142,9 +152,9 @@
                       <svg class="fa-archive" style="color:#6CDBC7">
                         <use xlink:href="#fa-archive"></use>
                       </svg>
-                      Food security
+                      Food</br> security
                     </h2>
-                      </br> </br> Partners’ Response Overview - Activities, Vulnerabilities, Gaps and Constraints.
+                      </br> Partners’ Response Overview - Activities, Vulnerabilities, Gaps and Constraints.
                   </div>
                 </a>
               </li>
@@ -168,9 +178,9 @@
                       <svg class="fa-compress" style="color:#6CDBC7">
                         <use xlink:href="#fa-compress"></use>
                       </svg>
-                      Critical multisectoral services
+                      Critical</br> multisectoral services
                     </h2>
-                      </br> </br> Partners’ Response Overview - Activities, Vulnerabilities, Gaps and Constraints.
+                      </br> Partners’ Response Overview - Activities, Vulnerabilities, Gaps and Constraints.
                   </div>
                 </a>
               </li>
@@ -181,67 +191,61 @@
                       <svg class="fa-shield" style="color:#6CDBC7">
                         <use xlink:href="#fa-shield"></use>
                       </svg>
-                      Protection of vulnerable groups
+                      Protection</br> of vulnerable groups
                     </h2>
-                      </br> </br> Partners’ Response Overview - Activities, Vulnerabilities, Gaps and Constraints.
+                      </br> Partners’ Response Overview - Activities, Vulnerabilities, Gaps and Constraints.
                   </div>
                 </a>
               </li>
-              <li></li>
-              <li></li>
+              <li class="divhide"></li>
+              <li class="divhide"></li>
             </ul>
           </div>
         </section>
         <section>
           <div class="wrap">
-            <div class="card-70 bg-white flex-content, tableauPlaceholder" id="viz1600995870311" style="position: relative" >
-              <noscript
-                ><a href="#"
-                  ><img
-                    alt=" "
-                    src="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;ms&#47;msrp-generic&#47;Dashboard1&#47;1_rss.png"
-                    style="border: none" /></a></noscript
-              ><object class="tableauViz" style="display: none">
-                <param
-                  name="host_url"
-                  value="https%3A%2F%2Fpublic.tableau.com%2F"
-                />
-                <param name="embed_code_version" value="3" />
-                <param name="site_root" value="" />
-                <param name="name" value="msrp-generic&#47;Dashboard1" />
-                <param name="tabs" value="no" />
-                <param name="toolbar" value="yes" />
-                <param
-                  name="static_image"
-                  value="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;ms&#47;msrp-generic&#47;Dashboard1&#47;1.png"
-                />
-                <param name="animate_transition" value="yes" />
-                <param name="display_static_image" value="yes" />
-                <param name="display_spinner" value="yes" />
-                <param name="display_overlay" value="yes" />
-                <param name="display_count" value="yes" />
-                <param name="language" value="en" />
-                <param name="filter" value="publish=yes" />
-              </object>
+            <div class="card-70 bg-white">
+              <iframe class="div-frame-1" src="https://public.tableau.com/views/msrp-generic/Dashboard1?:showVizHome=no&:embed=true">
+              </iframe>
+              <div class="flex-content" style="border-left: 1px solid #d4d4d4;">
+                <!-- <h3>Funding Status - Requirment (USD)</h3> -->
+                <ul class="description">
+                  <li>
+                    <strong class="text-cols" title="Pillars">Total Funding:</strong>
+                    60,908,920
+                  </li>
+                  <li>
+                    <strong class="text-cols" title="Pillars">Priority Area:</strong>
+                    7
+                  </li>
+                  <li>
+                    <strong class="text-cols" title="Total indicator">Indicator:</strong>
+                    66
+                  </li>
+                  <li>
+                    <strong class="text-cols" title="Multisector"># of Organization:</strong>
+                    25
+                  </li>
+                  <li>
+                    <strong class="text-cols" title="Socioeconomy"
+                      >Location of work:<br></strong></strong
+                    >
+                    35 activities at National Level and 17 activities at Provincial Level
+                  </li>
+                  <li>
+                    <strong class="text-cols" title="Socioeconomy"
+                      >Level of support:<br></strong></strong
+                    >
+                    Individula, HHs and Institutions
+                  </li>
+                </ul>
+              </div>
             </div>
-            <script type="text/javascript">
-              var divElement = document.getElementById("viz1600995870311");
-              var vizElement = divElement.getElementsByTagName("object")[0];
-              if (divElement.offsetWidth > 800) {
-                vizElement.style.width = "1300px";
-                vizElement.style.height = "700px";
-              } else if (divElement.offsetWidth > 600) {
-                vizElement.style.width = "1300px";
-                vizElement.style.height = "700px";
-              } else {
-                vizElement.style.width = "100%";
-                vizElement.style.height = "700px";
-              }
-              var scriptElement = document.createElement("script");
-              scriptElement.src =
-                "https://public.tableau.com/javascripts/api/viz_v1.js";
-              vizElement.parentNode.insertBefore(scriptElement, vizElement);
+            <script>
+              $(".div-frame-1").width($(".card-70").width());
+              $(".div-frame-1").height($(".flex-content").height()+70);
             </script>
+            <!-- end .flex-content-->
             <!-- end .card-50-->
           </div>
           <!-- .end .wrap -->
@@ -249,55 +253,56 @@
         <section>
           <div class="wrap">
             <div class="card-70 bg-white">
-              <figure>
-                <iframe src="https://public.tableau.com/views/msrp-funding/Dashboard1?:showVizHome=no&:embed=true"
+                <iframe class="div-frame-2" src="https://public.tableau.com/views/msrp-funding/Dashboard1?:showVizHome=no&:embed=true"
                 width="645" height="955">
                 </iframe>
-              </figure>
               <!-- end figure-->
-              <div class="flex-content">
-                <h2>Funding Status - Requirment (USD)</h2>
+              <div class="flex-content" style="border-left: 1px solid #d4d4d4;">
+                <!-- <h3>Funding Status - Requirment (USD)</h3> -->
                 <ul class="description">
                   <li>
-                    <strong class="text-cols" title="Density">Health:</strong>
+                    <strong class="text-cols" title="Total">Total Requirment:</strong>
+                    XXX,XXX,XXX
+                  </li>
+                  <li>
+                    <strong class="text-cols" title="Health">Health:</strong>
                     60,908,920
                   </li>
                   <li>
-                    <strong class="text-cols" title="Population"
-                      >RCCE:</strong
+                    <strong class="text-cols" title="Multisector">Critical Multisectoral Services:</strong>
+                    24,537,679
+                  </li>
+                  <li>
+                    <strong class="text-cols" title="Socioeconomy"
+                      >Mitigate the Socio-economic:</strong
                     >
-                    7,094,720
+                    15,227,000
                   </li>
                   <ul class="description">
                     <li>
-                      <strong class="text-cols" title="Density">Logistics:</strong>
-                      236,954
+                      <strong class="text-cols" title="Protection">Protection of Vulnerable Groups:</strong>
+                      11,204,004
                     </li>
                     <li>
-                      <strong class="text-cols" title="Population"
+                      <strong class="text-cols" title="Risk Communication">RCCE:</strong>
+                      7,094,720
+                    </li>
+                    <li>
+                      <strong class="text-cols" title="Food Security"
                         >Food Security and Agriculture:</strong
                       >
                       5,055,000
                     </li>
-                    <ul class="description">
-                      <li>
-                        <strong class="text-cols" title="Density">Mitigate the Socio-economic:</strong>
-                        15,227,000
-                      </li>
-                      <li>
-                        <strong class="text-cols" title="Population"
-                          >Critical Multisectoral Services:</strong
-                        >
-                        24,537,679
-                      </li>
-                      <li>
-                        <strong class="text-cols" title="Population"
-                          >Protection of Vulnerable Groups:</strong
-                        >
-                        11,204,004
-                      </li>
+                    <li>
+                      <strong class="text-cols" title="Logistic">Logistics:</strong>
+                      236,954
+                    </li>
                 </ul>
               </div>
+              <script>
+                $(".div-frame-2").width($(".card-70").width());
+                $(".div-frame-2").height($(".flex-content").height()+70);
+              </script>
               <!-- end .flex-content-->
             </div>
             <!-- end .card-50-->
@@ -344,7 +349,7 @@ Multi Sectoral Response Plan to COVID-19.
     <!-- Required -->
     <script src="static/js/webslides.js"></script>
     <script>
-      window.ws = new WebSlides();
+      window.ws = new WebSlides({ loop: false });
     </script>
 
     <!-- OPTIONAL - svg-icons.js (fontastic.me - Font Awesome as svg icons) -->
