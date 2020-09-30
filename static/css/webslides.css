@@ -487,11 +487,11 @@ figure.alignleft {
 
 pre,
 code {
-  font-family: 'Cousine', monospace; }
+  font-family: 'Roboto', monospace; }
 
 pre {
-  font-size: 1.6rem;
-  line-height: 2.4rem;
+  font-size: 1.8rem;
+  line-height: 2.7rem;
   overflow: auto;
   padding: 2.4rem;
   text-align: left;
@@ -1064,7 +1064,7 @@ h3 [class*='bg-'] {
 /*== 2.2. Typography Classes = .text- == */
 .text-intro,
 [class*='content-'] p {
-  font-size: 2.4rem;
+  font-size: 2.1rem;
   line-height: 4rem; }
 
 /* -- Serif -- */
@@ -1326,14 +1326,14 @@ header[role='banner'] {
   text-transform: lowercase; }
   .logo a {
     background: url("../images/logos/logo.svg") no-repeat 0 0;
-    background-size: 4.8rem;
-    float: left;
-    height: 4.8rem;
+    background-size: 12.8rem;
+    float: right;
+    height: 3.2rem;
     text-indent: -4000px;
     /*If you remove text-indent and add: */
     /*padding-left: 6rem;*/
     vertical-align: middle;
-    width: 4.8rem; }
+    width: 15.8rem; }
 
 /*=========================================
 4. Navigation
@@ -1729,9 +1729,9 @@ div + ol {
 .flexblock li h3,
 footer .column h2,
 footer .column h3 {
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   font-weight: 600;
-  line-height: 3.2rem;
+  line-height: 2.9rem;
   margin-bottom: 0; }
 
 .flexblock li li,
@@ -3062,7 +3062,7 @@ Solution: stackoverflow.com/questions/34250282/flexbox-safari-bug-flex-wrap
 webslides.js will add .ws-ready automatically. Don't worry :) -- */
 body {
   background-color: #f7f9fb;
-  color: #333; }
+  color: #353839; }
 
 :focus {
   -webkit-box-shadow: 0 0 2px #96bbee;
