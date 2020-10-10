@@ -1729,7 +1729,7 @@ div + ol {
 .flexblock li h3,
 footer .column h2,
 footer .column h3 {
-  font-size: 1.6rem;
+  font-size: 1.7rem;
   font-weight: 600;
   line-height: 2.9rem;
   margin-bottom: 0; }
@@ -1965,7 +1965,7 @@ img size recommended:800x600px
         -ms-flex: inherit;
             flex: inherit; }
   .flexblock.gallery li figcaption {
-    padding: 1.6rem;
+    padding: 1.7rem;
     position: relative; }
     .flexblock.gallery li figcaption:before {
       content: '';
@@ -1993,15 +1993,18 @@ img size recommended:800x600px
   padding: 0; }
 
 .flexblock.gallery h2 {
+  margin-left: 1.7rem;
   text-transform: uppercase; }
 
 .flexblock.gallery h2 + p,
 .flexblock.gallery h3 + p {
+  margin-left: 1.7rem;
   margin-top: .8rem; }
 
 .flexblock.gallery p {
-  font-size: 1.6rem;
+  font-size: 3.2rem;
   line-height: 2.4rem;
+  margin-left: 1.7rem;
   margin-bottom: 0; }
 
 .flexblock.gallery li footer {
